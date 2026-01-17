@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build --cname ciriousgame.mehdichafai.me"
+    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
+    "deploy": "gh-pages -d dist --cname ciriousgame.mehdichafai.me"
   },
   "dependencies": {
     "autoprefixer": "^10.4.23",
