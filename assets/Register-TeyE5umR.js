@@ -1,0 +1,1 @@
+import"./arrow-left-ClGdW1GP.js";import{t as e}from"./AuthForm-B5slDOfF.js";import{m as t}from"./index-EuJ0YDpT.js";var n=t();function r(){return(0,n.jsx)(e,{mode:`register`})}export{r as default};

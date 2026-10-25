@@ -1,0 +1,1 @@
+import{t as e}from"./pays-5HK3QR-M.js";export{e as default};
