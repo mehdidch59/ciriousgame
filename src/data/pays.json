@@ -1,0 +1,2020 @@
+[
+    {
+        "id": "AF",
+        "name": "Afghanistan",
+        "population": 38928346,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            550,
+            160
+        ],
+        "neighbors": [
+            "IR",
+            "PK",
+            "TM",
+            "UZ",
+            "TJ",
+            "CN"
+        ],
+        "cured": 38928346,
+        "infected": 0
+    },
+    {
+        "id": "AL",
+        "name": "Albania",
+        "population": 2877797,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            435,
+            145
+        ],
+        "neighbors": [
+            "GR",
+            "MK",
+            "KV",
+            "ME"
+        ],
+        "cured": 2877797,
+        "infected": 0
+    },
+    {
+        "id": "DZ",
+        "name": "Algeria",
+        "population": 43851044,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            390,
+            170
+        ],
+        "neighbors": [
+            "TN",
+            "LY",
+            "NE",
+            "ML",
+            "MR",
+            "MA"
+        ],
+        "cured": 43851044,
+        "infected": 0
+    },
+    {
+        "id": "AO",
+        "name": "Angola",
+        "population": 32866272,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            420,
+            260
+        ],
+        "neighbors": [
+            "NA",
+            "CD",
+            "ZM"
+        ],
+        "cured": 32866272,
+        "infected": 0
+    },
+    {
+        "id": "AR",
+        "name": "Argentina",
+        "population": 45195774,
+        "density": "LOW",
+        "climate": "TEMPERATE",
+        "coords": [
+            240,
+            340
+        ],
+        "neighbors": [
+            "CL",
+            "BO",
+            "PY",
+            "BR",
+            "UY"
+        ],
+        "cured": 45195774,
+        "infected": 0
+    },
+    {
+        "id": "AM",
+        "name": "Armenia",
+        "population": 2963243,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            500,
+            150
+        ],
+        "neighbors": [
+            "TR",
+            "GE",
+            "AZ",
+            "IR"
+        ],
+        "cured": 2963243,
+        "infected": 0
+    },
+    {
+        "id": "AU",
+        "name": "Australia",
+        "population": 25499884,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            680,
+            320
+        ],
+        "neighbors": [
+            "ID",
+            "PG",
+            "NZ"
+        ],
+        "cured": 25499884,
+        "infected": 0
+    },
+    {
+        "id": "AT",
+        "name": "Austria",
+        "population": 9006398,
+        "density": "MEDIUM",
+        "climate": "COLD",
+        "coords": [
+            425,
+            125
+        ],
+        "neighbors": [
+            "DE",
+            "CZ",
+            "SK",
+            "HU",
+            "SI",
+            "IT",
+            "CH"
+        ],
+        "cured": 9006398,
+        "infected": 0
+    },
+    {
+        "id": "AZ",
+        "name": "Azerbaijan",
+        "population": 10139177,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            510,
+            150
+        ],
+        "neighbors": [
+            "RU",
+            "GE",
+            "AM",
+            "IR"
+        ],
+        "cured": 10139177,
+        "infected": 0
+    },
+    {
+        "id": "BD",
+        "name": "Bangladesh",
+        "population": 164689383,
+        "density": "VERY HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            575,
+            195
+        ],
+        "neighbors": [
+            "IN",
+            "MM"
+        ],
+        "cured": 164689383,
+        "infected": 0
+    },
+    {
+        "id": "BY",
+        "name": "Belarus",
+        "population": 9449323,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            450,
+            110
+        ],
+        "neighbors": [
+            "PL",
+            "LT",
+            "LV",
+            "RU",
+            "UA"
+        ],
+        "cured": 9449323,
+        "infected": 0
+    },
+    {
+        "id": "BE",
+        "name": "Belgium",
+        "population": 11589623,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            405,
+            125
+        ],
+        "neighbors": [
+            "FR",
+            "DE",
+            "LU",
+            "NL"
+        ],
+        "cured": 11589623,
+        "infected": 0
+    },
+    {
+        "id": "BO",
+        "name": "Bolivia",
+        "population": 11673021,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            240,
+            280
+        ],
+        "neighbors": [
+            "BR",
+            "PY",
+            "AR",
+            "CL",
+            "PE"
+        ],
+        "cured": 11673021,
+        "infected": 0
+    },
+    {
+        "id": "BA",
+        "name": "Bosnia and Herzegovina",
+        "population": 3280819,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            430,
+            140
+        ],
+        "neighbors": [
+            "HR",
+            "RS",
+            "ME"
+        ],
+        "cured": 3280819,
+        "infected": 0
+    },
+    {
+        "id": "BW",
+        "name": "Botswana",
+        "population": 2351627,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            440,
+            300
+        ],
+        "neighbors": [
+            "NA",
+            "ZA",
+            "ZW",
+            "ZM"
+        ],
+        "cured": 2351627,
+        "infected": 0
+    },
+    {
+        "id": "BR",
+        "name": "Brazil",
+        "population": 212559417,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            280,
+            260
+        ],
+        "neighbors": [
+            "GF",
+            "SR",
+            "GY",
+            "VE",
+            "CO",
+            "PE",
+            "BO",
+            "PY",
+            "AR",
+            "UY"
+        ],
+        "cured": 212559417,
+        "infected": 0
+    },
+    {
+        "id": "BG",
+        "name": "Bulgaria",
+        "population": 6948445,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            450,
+            145
+        ],
+        "neighbors": [
+            "RO",
+            "RS",
+            "MK",
+            "GR",
+            "TR"
+        ],
+        "cured": 6948445,
+        "infected": 0
+    },
+    {
+        "id": "BF",
+        "name": "Burkina Faso",
+        "population": 20903273,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            390,
+            200
+        ],
+        "neighbors": [
+            "ML",
+            "NE",
+            "BJ",
+            "TG",
+            "GH",
+            "CI"
+        ],
+        "cured": 20903273,
+        "infected": 0
+    },
+    {
+        "id": "KH",
+        "name": "Cambodia",
+        "population": 16718965,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            610,
+            210
+        ],
+        "neighbors": [
+            "TH",
+            "LA",
+            "VN"
+        ],
+        "cured": 16718965,
+        "infected": 0
+    },
+    {
+        "id": "CM",
+        "name": "Cameroon",
+        "population": 26545863,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            420,
+            220
+        ],
+        "neighbors": [
+            "NG",
+            "TD",
+            "CF",
+            "CG",
+            "GA",
+            "GQ"
+        ],
+        "cured": 26545863,
+        "infected": 0
+    },
+    {
+        "id": "CA",
+        "name": "Canada",
+        "population": 37742154,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            150,
+            80
+        ],
+        "neighbors": [
+            "US"
+        ],
+        "cured": 37742154,
+        "infected": 0
+    },
+    {
+        "id": "CF",
+        "name": "Central African Republic",
+        "population": 4829767,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            440,
+            220
+        ],
+        "neighbors": [
+            "TD",
+            "SD",
+            "SS",
+            "CD",
+            "CG",
+            "CM"
+        ],
+        "cured": 4829767,
+        "infected": 0
+    },
+    {
+        "id": "TD",
+        "name": "Chad",
+        "population": 16425864,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            430,
+            200
+        ],
+        "neighbors": [
+            "LY",
+            "SD",
+            "CF",
+            "CM",
+            "NG",
+            "NE"
+        ],
+        "cured": 16425864,
+        "infected": 0
+    },
+    {
+        "id": "CL",
+        "name": "Chile",
+        "population": 19116201,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            220,
+            320
+        ],
+        "neighbors": [
+            "AR",
+            "BO",
+            "PE"
+        ],
+        "cured": 19116201,
+        "infected": 0
+    },
+    {
+        "id": "CN",
+        "name": "China",
+        "population": 1439323776,
+        "density": "VERY HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            600,
+            160
+        ],
+        "neighbors": [
+            "MN",
+            "RU",
+            "KP",
+            "VN",
+            "LA",
+            "MM",
+            "IN",
+            "NP",
+            "BT",
+            "PK",
+            "AF",
+            "TJ",
+            "KG",
+            "KZ"
+        ],
+        "cured": 1439323776,
+        "infected": 0
+    },
+    {
+        "id": "CO",
+        "name": "Colombia",
+        "population": 50882891,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            220,
+            220
+        ],
+        "neighbors": [
+            "VE",
+            "BR",
+            "PE",
+            "EC",
+            "PA"
+        ],
+        "cured": 50882891,
+        "infected": 0
+    },
+    {
+        "id": "CG",
+        "name": "Congo",
+        "population": 5518087,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            425,
+            240
+        ],
+        "neighbors": [
+            "GA",
+            "CM",
+            "CF",
+            "CD",
+            "AO"
+        ],
+        "cured": 5518087,
+        "infected": 0
+    },
+    {
+        "id": "CD",
+        "name": "DR Congo",
+        "population": 89561403,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            440,
+            240
+        ],
+        "neighbors": [
+            "CF",
+            "SS",
+            "UG",
+            "RW",
+            "BI",
+            "TZ",
+            "ZM",
+            "AO",
+            "CG"
+        ],
+        "cured": 89561403,
+        "infected": 0
+    },
+    {
+        "id": "CR",
+        "name": "Costa Rica",
+        "population": 5094118,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            190,
+            210
+        ],
+        "neighbors": [
+            "NI",
+            "PA"
+        ],
+        "cured": 5094118,
+        "infected": 0
+    },
+    {
+        "id": "HR",
+        "name": "Croatia",
+        "population": 4105267,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            430,
+            135
+        ],
+        "neighbors": [
+            "SI",
+            "HU",
+            "RS",
+            "BA",
+            "ME"
+        ],
+        "cured": 4105267,
+        "infected": 0
+    },
+    {
+        "id": "CU",
+        "name": "Cuba",
+        "population": 11326616,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            200,
+            180
+        ],
+        "neighbors": [
+            "US",
+            "MX",
+            "BS",
+            "JM",
+            "HT"
+        ],
+        "cured": 11326616,
+        "infected": 0
+    },
+    {
+        "id": "CZ",
+        "name": "Czechia",
+        "population": 10708981,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            430,
+            120
+        ],
+        "neighbors": [
+            "DE",
+            "PL",
+            "SK",
+            "AT"
+        ],
+        "cured": 10708981,
+        "infected": 0
+    },
+    {
+        "id": "DK",
+        "name": "Denmark",
+        "population": 5792202,
+        "density": "HIGH",
+        "climate": "COLD",
+        "coords": [
+            415,
+            105
+        ],
+        "neighbors": [
+            "DE"
+        ],
+        "cured": 5792202,
+        "infected": 0
+    },
+    {
+        "id": "DO",
+        "name": "Dominican Republic",
+        "population": 10847910,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            220,
+            180
+        ],
+        "neighbors": [
+            "HT"
+        ],
+        "cured": 10847910,
+        "infected": 0
+    },
+    {
+        "id": "EC",
+        "name": "Ecuador",
+        "population": 17643054,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            210,
+            230
+        ],
+        "neighbors": [
+            "CO",
+            "PE"
+        ],
+        "cured": 17643054,
+        "infected": 0
+    },
+    {
+        "id": "EG",
+        "name": "Egypt",
+        "population": 102334404,
+        "density": "HIGH",
+        "climate": "ARID",
+        "coords": [
+            450,
+            180
+        ],
+        "neighbors": [
+            "LY",
+            "SD",
+            "IL"
+        ],
+        "cured": 102334404,
+        "infected": 0
+    },
+    {
+        "id": "ET",
+        "name": "Ethiopia",
+        "population": 114963588,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            480,
+            210
+        ],
+        "neighbors": [
+            "ER",
+            "DJ",
+            "SO",
+            "KE",
+            "SS",
+            "SD"
+        ],
+        "cured": 114963588,
+        "infected": 0
+    },
+    {
+        "id": "FI",
+        "name": "Finland",
+        "population": 5540720,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            460,
+            80
+        ],
+        "neighbors": [
+            "SE",
+            "NO",
+            "RU"
+        ],
+        "cured": 5540720,
+        "infected": 0
+    },
+    {
+        "id": "FR",
+        "name": "France",
+        "population": 65273511,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            390,
+            130
+        ],
+        "neighbors": [
+            "ES",
+            "AD",
+            "BE",
+            "LU",
+            "DE",
+            "CH",
+            "IT",
+            "MC"
+        ],
+        "cured": 65273511,
+        "infected": 0
+    },
+    {
+        "id": "DE",
+        "name": "Germany",
+        "population": 83783942,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            415,
+            120
+        ],
+        "neighbors": [
+            "DK",
+            "PL",
+            "CZ",
+            "AT",
+            "CH",
+            "FR",
+            "LU",
+            "BE",
+            "NL"
+        ],
+        "cured": 83783942,
+        "infected": 0
+    },
+    {
+        "id": "GH",
+        "name": "Ghana",
+        "population": 31072940,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            390,
+            215
+        ],
+        "neighbors": [
+            "CI",
+            "BF",
+            "TG"
+        ],
+        "cured": 31072940,
+        "infected": 0
+    },
+    {
+        "id": "GR",
+        "name": "Greece",
+        "population": 10423054,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            445,
+            150
+        ],
+        "neighbors": [
+            "AL",
+            "MK",
+            "BG",
+            "TR"
+        ],
+        "cured": 10423054,
+        "infected": 0
+    },
+    {
+        "id": "GT",
+        "name": "Guatemala",
+        "population": 17915568,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            165,
+            195
+        ],
+        "neighbors": [
+            "MX",
+            "BZ",
+            "HN",
+            "SV"
+        ],
+        "cured": 17915568,
+        "infected": 0
+    },
+    {
+        "id": "HT",
+        "name": "Haiti",
+        "population": 11402528,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            215,
+            180
+        ],
+        "neighbors": [
+            "DO"
+        ],
+        "cured": 11402528,
+        "infected": 0
+    },
+    {
+        "id": "HN",
+        "name": "Honduras",
+        "population": 9904607,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            175,
+            200
+        ],
+        "neighbors": [
+            "GT",
+            "SV",
+            "NI"
+        ],
+        "cured": 9904607,
+        "infected": 0
+    },
+    {
+        "id": "HU",
+        "name": "Hungary",
+        "population": 9660351,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            435,
+            130
+        ],
+        "neighbors": [
+            "SK",
+            "UA",
+            "RO",
+            "RS",
+            "HR",
+            "SI",
+            "AT"
+        ],
+        "cured": 9660351,
+        "infected": 0
+    },
+    {
+        "id": "IS",
+        "name": "Iceland",
+        "population": 341243,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            350,
+            70
+        ],
+        "neighbors": [],
+        "cured": 341243,
+        "infected": 0
+    },
+    {
+        "id": "IN",
+        "name": "India",
+        "population": 1380004385,
+        "density": "VERY HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            550,
+            190
+        ],
+        "neighbors": [
+            "PK",
+            "CN",
+            "NP",
+            "BT",
+            "BD",
+            "MM"
+        ],
+        "cured": 1380004385,
+        "infected": 0
+    },
+    {
+        "id": "ID",
+        "name": "Indonesia",
+        "population": 273523615,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            620,
+            260
+        ],
+        "neighbors": [
+            "MY",
+            "PG",
+            "TL"
+        ],
+        "cured": 273523615,
+        "infected": 0
+    },
+    {
+        "id": "IR",
+        "name": "Iran",
+        "population": 83992949,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            510,
+            170
+        ],
+        "neighbors": [
+            "IQ",
+            "TR",
+            "AM",
+            "AZ",
+            "TM",
+            "AF",
+            "PK"
+        ],
+        "cured": 83992949,
+        "infected": 0
+    },
+    {
+        "id": "IQ",
+        "name": "Iraq",
+        "population": 40222493,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            490,
+            165
+        ],
+        "neighbors": [
+            "TR",
+            "IR",
+            "KW",
+            "SA",
+            "JO",
+            "SY"
+        ],
+        "cured": 40222493,
+        "infected": 0
+    },
+    {
+        "id": "IE",
+        "name": "Ireland",
+        "population": 4937786,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            365,
+            115
+        ],
+        "neighbors": [
+            "GB"
+        ],
+        "cured": 4937786,
+        "infected": 0
+    },
+    {
+        "id": "IL",
+        "name": "Israel",
+        "population": 8655535,
+        "density": "HIGH",
+        "climate": "ARID",
+        "coords": [
+            470,
+            170
+        ],
+        "neighbors": [
+            "LB",
+            "SY",
+            "JO",
+            "EG"
+        ],
+        "cured": 8655535,
+        "infected": 0
+    },
+    {
+        "id": "IT",
+        "name": "Italy",
+        "population": 60461826,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            420,
+            140
+        ],
+        "neighbors": [
+            "FR",
+            "CH",
+            "AT",
+            "SI"
+        ],
+        "cured": 60461826,
+        "infected": 0
+    },
+    {
+        "id": "JM",
+        "name": "Jamaica",
+        "population": 2961167,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            195,
+            185
+        ],
+        "neighbors": [],
+        "cured": 2961167,
+        "infected": 0
+    },
+    {
+        "id": "JP",
+        "name": "Japan",
+        "population": 126476461,
+        "density": "VERY HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            660,
+            150
+        ],
+        "neighbors": [],
+        "cured": 126476461,
+        "infected": 0
+    },
+    {
+        "id": "JO",
+        "name": "Jordan",
+        "population": 10203134,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            475,
+            170
+        ],
+        "neighbors": [
+            "SY",
+            "IQ",
+            "SA",
+            "IL"
+        ],
+        "cured": 10203134,
+        "infected": 0
+    },
+    {
+        "id": "KZ",
+        "name": "Kazakhstan",
+        "population": 18776707,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            530,
+            120
+        ],
+        "neighbors": [
+            "RU",
+            "CN",
+            "KG",
+            "UZ",
+            "TM"
+        ],
+        "cured": 18776707,
+        "infected": 0
+    },
+    {
+        "id": "KE",
+        "name": "Kenya",
+        "population": 53771296,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            475,
+            230
+        ],
+        "neighbors": [
+            "SS",
+            "ET",
+            "SO",
+            "TZ",
+            "UG"
+        ],
+        "cured": 53771296,
+        "infected": 0
+    },
+    {
+        "id": "KR",
+        "name": "South Korea",
+        "population": 51269185,
+        "density": "VERY HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            640,
+            150
+        ],
+        "neighbors": [
+            "KP"
+        ],
+        "cured": 51269185,
+        "infected": 0
+    },
+    {
+        "id": "LY",
+        "name": "Libya",
+        "population": 6871292,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            420,
+            180
+        ],
+        "neighbors": [
+            "TN",
+            "DZ",
+            "NE",
+            "TD",
+            "SD",
+            "EG"
+        ],
+        "cured": 6871292,
+        "infected": 0
+    },
+    {
+        "id": "MG",
+        "name": "Madagascar",
+        "population": 27691018,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            490,
+            300
+        ],
+        "neighbors": [],
+        "cured": 27691018,
+        "infected": 0
+    },
+    {
+        "id": "MY",
+        "name": "Malaysia",
+        "population": 32365999,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            600,
+            240
+        ],
+        "neighbors": [
+            "TH",
+            "ID",
+            "BN"
+        ],
+        "cured": 32365999,
+        "infected": 0
+    },
+    {
+        "id": "MX",
+        "name": "Mexico",
+        "population": 128932753,
+        "density": "HIGH",
+        "climate": "VARIOUS",
+        "coords": [
+            140,
+            180
+        ],
+        "neighbors": [
+            "US",
+            "GT",
+            "BZ"
+        ],
+        "cured": 128932753,
+        "infected": 0
+    },
+    {
+        "id": "MA",
+        "name": "Morocco",
+        "population": 36910560,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            375,
+            160
+        ],
+        "neighbors": [
+            "DZ",
+            "MR",
+            "ES"
+        ],
+        "cured": 36910560,
+        "infected": 0
+    },
+    {
+        "id": "MM",
+        "name": "Myanmar",
+        "population": 54409800,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            580,
+            200
+        ],
+        "neighbors": [
+            "BD",
+            "IN",
+            "CN",
+            "LA",
+            "TH"
+        ],
+        "cured": 54409800,
+        "infected": 0
+    },
+    {
+        "id": "NP",
+        "name": "Nepal",
+        "population": 29136808,
+        "density": "MEDIUM",
+        "climate": "COLD",
+        "coords": [
+            560,
+            190
+        ],
+        "neighbors": [
+            "IN",
+            "CN"
+        ],
+        "cured": 29136808,
+        "infected": 0
+    },
+    {
+        "id": "NL",
+        "name": "Netherlands",
+        "population": 17134872,
+        "density": "VERY HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            405,
+            115
+        ],
+        "neighbors": [
+            "DE",
+            "BE"
+        ],
+        "cured": 17134872,
+        "infected": 0
+    },
+    {
+        "id": "NZ",
+        "name": "New Zealand",
+        "population": 4822233,
+        "density": "LOW",
+        "climate": "TEMPERATE",
+        "coords": [
+            720,
+            360
+        ],
+        "neighbors": [],
+        "cured": 4822233,
+        "infected": 0
+    },
+    {
+        "id": "NG",
+        "name": "Nigeria",
+        "population": 206139589,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            410,
+            220
+        ],
+        "neighbors": [
+            "BJ",
+            "NE",
+            "TD",
+            "CM"
+        ],
+        "cured": 206139589,
+        "infected": 0
+    },
+    {
+        "id": "NO",
+        "name": "Norway",
+        "population": 5421241,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            415,
+            80
+        ],
+        "neighbors": [
+            "SE",
+            "FI",
+            "RU"
+        ],
+        "cured": 5421241,
+        "infected": 0
+    },
+    {
+        "id": "PK",
+        "name": "Pakistan",
+        "population": 220892340,
+        "density": "HIGH",
+        "climate": "ARID",
+        "coords": [
+            535,
+            180
+        ],
+        "neighbors": [
+            "IR",
+            "AF",
+            "CN",
+            "IN"
+        ],
+        "cured": 220892340,
+        "infected": 0
+    },
+    {
+        "id": "PG",
+        "name": "Papua New Guinea",
+        "population": 8947024,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            680,
+            270
+        ],
+        "neighbors": [
+            "ID"
+        ],
+        "cured": 8947024,
+        "infected": 0
+    },
+    {
+        "id": "PE",
+        "name": "Peru",
+        "population": 32971854,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            220,
+            260
+        ],
+        "neighbors": [
+            "EC",
+            "CO",
+            "BR",
+            "BO",
+            "CL"
+        ],
+        "cured": 32971854,
+        "infected": 0
+    },
+    {
+        "id": "PH",
+        "name": "Philippines",
+        "population": 109581078,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            640,
+            230
+        ],
+        "neighbors": [],
+        "cured": 109581078,
+        "infected": 0
+    },
+    {
+        "id": "PL",
+        "name": "Poland",
+        "population": 37846611,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            440,
+            115
+        ],
+        "neighbors": [
+            "DE",
+            "CZ",
+            "SK",
+            "UA",
+            "BY",
+            "LT",
+            "RU"
+        ],
+        "cured": 37846611,
+        "infected": 0
+    },
+    {
+        "id": "PT",
+        "name": "Portugal",
+        "population": 10196709,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            375,
+            150
+        ],
+        "neighbors": [
+            "ES"
+        ],
+        "cured": 10196709,
+        "infected": 0
+    },
+    {
+        "id": "RO",
+        "name": "Romania",
+        "population": 19237691,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            455,
+            135
+        ],
+        "neighbors": [
+            "HU",
+            "UA",
+            "MD",
+            "BG",
+            "RS"
+        ],
+        "cured": 19237691,
+        "infected": 0
+    },
+    {
+        "id": "RU",
+        "name": "Russia",
+        "population": 145934462,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            550,
+            100
+        ],
+        "neighbors": [
+            "NO",
+            "FI",
+            "EE",
+            "LV",
+            "LT",
+            "PL",
+            "BY",
+            "UA",
+            "GE",
+            "AZ",
+            "KZ",
+            "CN",
+            "MN",
+            "KP"
+        ],
+        "cured": 145934462,
+        "infected": 0
+    },
+    {
+        "id": "SA",
+        "name": "Saudi Arabia",
+        "population": 34813871,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            480,
+            190
+        ],
+        "neighbors": [
+            "JO",
+            "IQ",
+            "KW",
+            "QA",
+            "AE",
+            "OM",
+            "YE"
+        ],
+        "cured": 34813871,
+        "infected": 0
+    },
+    {
+        "id": "SN",
+        "name": "Senegal",
+        "population": 16743927,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            360,
+            200
+        ],
+        "neighbors": [
+            "MR",
+            "ML",
+            "GN",
+            "GW",
+            "GM"
+        ],
+        "cured": 16743927,
+        "infected": 0
+    },
+    {
+        "id": "RS",
+        "name": "Serbia",
+        "population": 8737371,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            440,
+            140
+        ],
+        "neighbors": [
+            "HU",
+            "RO",
+            "BG",
+            "MK",
+            "AL",
+            "ME",
+            "BA",
+            "HR"
+        ],
+        "cured": 8737371,
+        "infected": 0
+    },
+    {
+        "id": "SG",
+        "name": "Singapore",
+        "population": 5850342,
+        "density": "VERY HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            605,
+            250
+        ],
+        "neighbors": [],
+        "cured": 5850342,
+        "infected": 0
+    },
+    {
+        "id": "ZA",
+        "name": "South Africa",
+        "population": 59308690,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            460,
+            320
+        ],
+        "neighbors": [
+            "NA",
+            "BW",
+            "ZW",
+            "MZ",
+            "SZ",
+            "LS"
+        ],
+        "cured": 59308690,
+        "infected": 0
+    },
+    {
+        "id": "ES",
+        "name": "Spain",
+        "population": 46754778,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            380,
+            150
+        ],
+        "neighbors": [
+            "PT",
+            "FR",
+            "AD",
+            "MA"
+        ],
+        "cured": 46754778,
+        "infected": 0
+    },
+    {
+        "id": "LK",
+        "name": "Sri Lanka",
+        "population": 21413249,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            560,
+            220
+        ],
+        "neighbors": [],
+        "cured": 21413249,
+        "infected": 0
+    },
+    {
+        "id": "SD",
+        "name": "Sudan",
+        "population": 43849260,
+        "density": "LOW",
+        "climate": "ARID",
+        "coords": [
+            460,
+            200
+        ],
+        "neighbors": [
+            "EG",
+            "LY",
+            "TD",
+            "CF",
+            "SS",
+            "ET",
+            "ER"
+        ],
+        "cured": 43849260,
+        "infected": 0
+    },
+    {
+        "id": "SE",
+        "name": "Sweden",
+        "population": 10099265,
+        "density": "LOW",
+        "climate": "COLD",
+        "coords": [
+            430,
+            80
+        ],
+        "neighbors": [
+            "NO",
+            "FI"
+        ],
+        "cured": 10099265,
+        "infected": 0
+    },
+    {
+        "id": "CH",
+        "name": "Switzerland",
+        "population": 8654622,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            415,
+            130
+        ],
+        "neighbors": [
+            "DE",
+            "FR",
+            "IT",
+            "AT",
+            "LI"
+        ],
+        "cured": 8654622,
+        "infected": 0
+    },
+    {
+        "id": "SY",
+        "name": "Syria",
+        "population": 17500658,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            480,
+            165
+        ],
+        "neighbors": [
+            "TR",
+            "IQ",
+            "JO",
+            "IL",
+            "LB"
+        ],
+        "cured": 17500658,
+        "infected": 0
+    },
+    {
+        "id": "TW",
+        "name": "Taiwan",
+        "population": 23816775,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            625,
+            175
+        ],
+        "neighbors": [],
+        "cured": 23816775,
+        "infected": 0
+    },
+    {
+        "id": "TH",
+        "name": "Thailand",
+        "population": 69799978,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            590,
+            210
+        ],
+        "neighbors": [
+            "MM",
+            "LA",
+            "KH",
+            "MY"
+        ],
+        "cured": 69799978,
+        "infected": 0
+    },
+    {
+        "id": "TN",
+        "name": "Tunisia",
+        "population": 11818619,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            410,
+            165
+        ],
+        "neighbors": [
+            "DZ",
+            "LY"
+        ],
+        "cured": 11818619,
+        "infected": 0
+    },
+    {
+        "id": "TR",
+        "name": "Turkey",
+        "population": 84339067,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            465,
+            155
+        ],
+        "neighbors": [
+            "GR",
+            "BG",
+            "GE",
+            "AM",
+            "AZ",
+            "IR",
+            "IQ",
+            "SY"
+        ],
+        "cured": 84339067,
+        "infected": 0
+    },
+    {
+        "id": "UG",
+        "name": "Uganda",
+        "population": 45741007,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            465,
+            235
+        ],
+        "neighbors": [
+            "SS",
+            "KE",
+            "TZ",
+            "RW",
+            "CD"
+        ],
+        "cured": 45741007,
+        "infected": 0
+    },
+    {
+        "id": "UA",
+        "name": "Ukraine",
+        "population": 43733762,
+        "density": "MEDIUM",
+        "climate": "COLD",
+        "coords": [
+            470,
+            125
+        ],
+        "neighbors": [
+            "BY",
+            "RU",
+            "MD",
+            "RO",
+            "HU",
+            "SK",
+            "PL"
+        ],
+        "cured": 43733762,
+        "infected": 0
+    },
+    {
+        "id": "AE",
+        "name": "United Arab Emirates",
+        "population": 9890402,
+        "density": "HIGH",
+        "climate": "ARID",
+        "coords": [
+            500,
+            185
+        ],
+        "neighbors": [
+            "SA",
+            "OM"
+        ],
+        "cured": 9890402,
+        "infected": 0
+    },
+    {
+        "id": "GB",
+        "name": "United Kingdom",
+        "population": 67886011,
+        "density": "HIGH",
+        "climate": "TEMPERATE",
+        "coords": [
+            390,
+            110
+        ],
+        "neighbors": [
+            "IE",
+            "FR"
+        ],
+        "cured": 67886011,
+        "infected": 0
+    },
+    {
+        "id": "US",
+        "name": "United States",
+        "population": 331002651,
+        "density": "MEDIUM",
+        "climate": "VARIOUS",
+        "coords": [
+            150,
+            140
+        ],
+        "neighbors": [
+            "CA",
+            "MX"
+        ],
+        "cured": 331002651,
+        "infected": 0
+    },
+    {
+        "id": "UY",
+        "name": "Uruguay",
+        "population": 3473730,
+        "density": "LOW",
+        "climate": "TEMPERATE",
+        "coords": [
+            260,
+            350
+        ],
+        "neighbors": [
+            "BR",
+            "AR"
+        ],
+        "cured": 3473730,
+        "infected": 0
+    },
+    {
+        "id": "UZ",
+        "name": "Uzbekistan",
+        "population": 33469203,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            520,
+            140
+        ],
+        "neighbors": [
+            "KZ",
+            "KG",
+            "TJ",
+            "AF",
+            "TM"
+        ],
+        "cured": 33469203,
+        "infected": 0
+    },
+    {
+        "id": "VE",
+        "name": "Venezuela",
+        "population": 28435940,
+        "density": "MEDIUM",
+        "climate": "TROPICAL",
+        "coords": [
+            240,
+            210
+        ],
+        "neighbors": [
+            "CO",
+            "BR",
+            "GY"
+        ],
+        "cured": 28435940,
+        "infected": 0
+    },
+    {
+        "id": "VN",
+        "name": "Vietnam",
+        "population": 97338579,
+        "density": "HIGH",
+        "climate": "TROPICAL",
+        "coords": [
+            600,
+            220
+        ],
+        "neighbors": [
+            "CN",
+            "LA",
+            "KH"
+        ],
+        "cured": 97338579,
+        "infected": 0
+    },
+    {
+        "id": "YE",
+        "name": "Yemen",
+        "population": 29825964,
+        "density": "MEDIUM",
+        "climate": "ARID",
+        "coords": [
+            490,
+            200
+        ],
+        "neighbors": [
+            "SA",
+            "OM"
+        ],
+        "cured": 29825964,
+        "infected": 0
+    },
+    {
+        "id": "ZM",
+        "name": "Zambia",
+        "population": 18383955,
+        "density": "LOW",
+        "climate": "TROPICAL",
+        "coords": [
+            450,
+            280
+        ],
+        "neighbors": [
+            "CD",
+            "TZ",
+            "MW",
+            "MZ",
+            "ZW",
+            "BW",
+            "NA",
+            "AO"
+        ],
+        "cured": 18383955,
+        "infected": 0
+    },
+    {
+        "id": "ZW",
+        "name": "Zimbabwe",
+        "population": 14862924,
+        "density": "MEDIUM",
+        "climate": "TEMPERATE",
+        "coords": [
+            460,
+            290
+        ],
+        "neighbors": [
+            "ZA",
+            "BW",
+            "ZM",
+            "MZ"
+        ],
+        "cured": 14862924,
+        "infected": 0
+    }
+]
