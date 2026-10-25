@@ -51,8 +51,8 @@ export const useGameLogic = () => {
     // Game State
     const [stats, setStats] = useState({
         totalCured: 0,
-        totalPopulation: 0,
-        totalInfected: 0,
+        totalPopulation: initialCountries.reduce((sum, c) => sum + c.population, 0),
+        totalInfected: initialCountries.reduce((sum, c) => sum + c.population, 0),
         points: 0,
         // Modifiers
         infectionRateMod: 1.0,
@@ -73,11 +73,7 @@ export const useGameLogic = () => {
 
     const [status, setStatus] = useState('SYSTEM ACTIVE // AWAITING INPUT');
 
-    // Init Logic
-    useEffect(() => {
-        const totalPop = initialCountries.reduce((acc, c) => acc + c.population, 0);
-        setStats(s => ({ ...s, totalPopulation: totalPop, totalInfected: totalPop }));
-    }, []);
+
 
     // Main Loop
     useEffect(() => {

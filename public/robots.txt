@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ciriousgame.mehdichafai.me/sitemap.xml

@@ -1,0 +1,79 @@
+{
+  "scope": "Accueil de production local uniquement ; Lighthouse headless Chrome avec throttling simulé ; pas une mesure sur téléphone physique ni des FPS du jeu.",
+  "optimization": "Suppression de Firestore inutilisé et du resolver popup/redirect inutilisé. Persistance Firebase conservée dans le même ordre.",
+  "metrics": {
+    "before-desktop": {
+      "time": "2026-10-25T21:32:11.095Z",
+      "lighthouse": "13.5.0",
+      "url": "http://127.0.0.1:4173/",
+      "preset": "desktop",
+      "cpuSlowdown": 1,
+      "performance": 98,
+      "accessibility": 100,
+      "fcpMs": 595.7451250000001,
+      "lcpMs": 1059.7922,
+      "tbtMs": 0,
+      "cls": 0,
+      "report": "lighthouse-before-desktop.json"
+    },
+    "after-mobile": {
+      "time": "2026-10-25T21:36:08.758Z",
+      "lighthouse": "13.5.0",
+      "url": "http://127.0.0.1:4173/",
+      "preset": "mobile",
+      "cpuSlowdown": 4,
+      "performance": 92,
+      "accessibility": 100,
+      "fcpMs": 2037.1168750000002,
+      "lcpMs": 3021.3869999999997,
+      "tbtMs": 0,
+      "cls": 0.005233934985267016,
+      "report": "lighthouse-after-mobile.json"
+    },
+    "release-desktop": {
+      "time": "2026-10-25T21:41:29.156Z",
+      "lighthouse": "13.5.0",
+      "url": "http://127.0.0.1:4173/",
+      "preset": "desktop",
+      "cpuSlowdown": 1,
+      "performance": 98,
+      "accessibility": 100,
+      "fcpMs": 552.150625,
+      "lcpMs": 1021.441,
+      "tbtMs": 0,
+      "cls": 0.002312339039196801,
+      "report": "lighthouse-release-desktop.json"
+    },
+    "release-mobile": {
+      "time": "2026-10-25T21:40:42.353Z",
+      "lighthouse": "13.5.0",
+      "url": "http://127.0.0.1:4173/",
+      "preset": "mobile",
+      "cpuSlowdown": 4,
+      "performance": 94,
+      "accessibility": 100,
+      "fcpMs": 1885.599375,
+      "lcpMs": 2868.559,
+      "tbtMs": 0,
+      "cls": 0.005233934985267016,
+      "report": "lighthouse-release-mobile.json"
+    },
+    "learning-mobile": {
+      "time": "2026-10-25T21:51:44.148Z",
+      "lighthouse": "13.5.0",
+      "url": "http://127.0.0.1:4173/",
+      "preset": "mobile",
+      "cpuSlowdown": 4,
+      "performance": 94,
+      "accessibility": 100,
+      "lcpMs": 2867.487,
+      "tbtMs": 0,
+      "cls": 0.005233934985267016,
+      "report": "lighthouse-learning-mobile.json"
+    }
+  },
+  "webglDisabledCheck": {
+    "report": "lighthouse-no-webgl.json",
+    "scope": "Capture du menu inspectée avec --disable-webgl : atlas 2D, commandes principales disponibles, commandes du globe absentes."
+  }
+}

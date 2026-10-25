@@ -1,25 +1,41 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import GameLayout from './layouts/GameLayout';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Dashboard from './pages/Dashboard';
-import Home from './pages/Home';
-
+import { lazy, Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+const GameLayout = lazy(() =>
+  import("./game/routes").then((module) => ({ default: module.GameLayout })),
+);
+const Dashboard = lazy(() =>
+  import("./game/routes").then((module) => ({ default: module.Dashboard })),
+);
+const Login = lazy(() => import("./pages/Login"));
+const Register = lazy(() => import("./pages/Register"));
+const RequireAuth = lazy(() => import("./components/RequireAuth"));
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-
-        {/* Protected Game Routes */}
-        <Route path="/game" element={<GameLayout />}>
-          <Route index element={<Dashboard />} />
-        </Route>
-      </Routes>
+      <a className="skip-link" href="#main-content">
+        Aller au contenu principal
+      </a>
+      <Suspense
+        fallback={
+          <div className="help-panel" role="status">
+            Chargement…
+          </div>
+        }
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route element={<RequireAuth />}>
+            <Route path="/game" element={<GameLayout />}>
+              <Route index element={<Dashboard />} />
+            </Route>
+          </Route>
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
-
 export default App;

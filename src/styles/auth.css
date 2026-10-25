@@ -1,0 +1,129 @@
+/* Sign-in belongs to the same game, while preserving native form behavior. */
+.auth-page {
+  min-height: 100dvh;
+  background: var(--surface-base);
+  padding: var(--space-24) max(var(--space-24), env(safe-area-inset-left))
+    var(--space-40);
+  position: relative;
+}
+.auth-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  font-size: calc(var(--type-14) * var(--ui-scale, 1));
+  color: var(--text-secondary);
+}
+.auth-card {
+  max-width: 440px;
+  margin: 35px auto 0;
+  padding: var(--space-32) 0;
+  border-top: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border-strong);
+  position: relative;
+}
+.auth-mark {
+  color: var(--brass);
+  margin-bottom: 19px;
+}
+.auth-card .eyebrow {
+  font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+}
+.auth-card h1 {
+  font-size: calc(var(--type-38) * var(--ui-scale, 1));
+  line-height: 1.15;
+  margin: 10px 0 17px;
+}
+.auth-intro {
+  font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0 0 25px;
+}
+.auth-card fieldset {
+  border: 0;
+  padding: 0;
+  min-width: 0;
+}
+.form-field {
+  margin: var(--space-20) 0;
+}
+.form-field label {
+  display: block;
+  font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  margin-bottom: 9px;
+}
+.form-field input {
+  width: 100%;
+  min-height: 46px;
+  background: var(--surface-header);
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  padding: 11px 13px;
+  font-size: calc(var(--type-16) * var(--ui-scale, 1));
+  color: var(--paper);
+}
+.form-field input::placeholder {
+  color: var(--text-muted);
+}
+.form-field input[aria-invalid="true"] {
+  border-color: var(--infection);
+}
+.field-hint {
+  font-size: calc(var(--type-13) * var(--ui-scale, 1));
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-top: 9px;
+}
+.password-input {
+  position: relative;
+}
+.password-input input {
+  padding-right: 50px;
+}
+.password-input .icon-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 42px;
+  height: 42px;
+  color: var(--text-secondary);
+}
+.form-error {
+  font-size: calc(var(--type-14) * var(--ui-scale, 1));
+  line-height: 1.7;
+  color: var(--state-warning-text);
+  border: 1px solid var(--warning-border);
+  background: var(--warning-surface);
+  padding: var(--space-12);
+  margin: 15px 0;
+}
+.auth-submit {
+  width: 100%;
+  font-size: calc(var(--type-16) * var(--ui-scale, 1));
+}
+.auth-switch {
+  text-align: center;
+  font-size: calc(var(--type-14) * var(--ui-scale, 1));
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-top: 22px;
+}
+.auth-switch a {
+  color: var(--state-warning-text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-left: 4px;
+}
+.auth-storage-note {
+  text-align: center;
+  font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  margin-top: 25px;
+}
+.help-panel {
+  padding: 28px;
+  color: var(--text-secondary);
+  font-size: calc(var(--type-16) * var(--ui-scale, 1));
+}

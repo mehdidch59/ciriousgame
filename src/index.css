@@ -1,9 +1,12 @@
+@import "./styles/tokens.css";
+@import "./styles/foundation.css";
+@import "./styles/game.css";
+@import "./styles/menu.css";
+@import "./styles/auth.css";
+@import "./styles/dialogs.css";
+@import "./styles/responsive.css";
+@import "./styles/interaction.css";
+@import "./styles/atlas.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  body {
-    @apply bg-plague-bg text-plague-text overflow-hidden;
-  }
-}

@@ -1,0 +1,744 @@
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover,
+  .main-menu-play:hover {
+    background: var(--text-strong);
+    border-color: var(--text-strong);
+    color: var(--surface-inset);
+  }
+  .subtle:hover,
+  .protocol-purchase:hover:not(:disabled),
+  .order-button:hover:not(:disabled) {
+    background: var(--surface-active);
+    border-color: var(--state-warning);
+  }
+  .game-rail > button:hover {
+    background: var(--surface-hover);
+    color: var(--paper);
+  }
+  .country-row:hover {
+    background: var(--surface-hover);
+  }
+  .map-svg path[role="button"]:hover {
+    fill: var(--border-default);
+  }
+  .map-zoom button:hover:not(:disabled) {
+    background: var(--border-muted);
+  }
+  .speed-controls button:hover,
+  .map-layers button:hover {
+    background: var(--surface-active);
+  }
+  .main-menu > button:hover,
+  .main-menu > a:not(.main-menu-play):hover {
+    border-color: var(--border-default);
+    background: var(--surface-hover);
+  }
+  .auth-back:hover,
+  .title-header > a:hover {
+    color: var(--brass);
+  }
+}
+@media (max-width: 1200px) {
+  .game-stage {
+    grid-template-columns: 70px minmax(0, 1fr) 310px;
+  }
+  .game-brand > span {
+    font-size: calc(var(--type-42) * var(--ui-scale, 1));
+  }
+  .game-brand > svg {
+    width: 42px;
+    height: 42px;
+  }
+  .game-brand > small {
+    display: none;
+  }
+  .hud-values > div {
+    min-width: 110px;
+    padding: 0 var(--space-20);
+  }
+  .game-timebar {
+    gap: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .time-controls {
+    gap: 14px;
+    padding-left: 18px;
+  }
+  .latest-event {
+    padding-left: 18px;
+  }
+  .save-indicator {
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+    max-width: 155px;
+  }
+  .save-indicator small {
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+  }
+  .map-heading h1 {
+    font-size: calc(var(--type-30) * var(--ui-scale, 1));
+  }
+  .map-heading p {
+    font-size: calc(var(--type-13) * var(--ui-scale, 1));
+  }
+  .map-status {
+    display: none;
+  }
+  .region-content,
+  .research-content,
+  .countries-content,
+  .journal-content,
+  .guide-content,
+  .settings-content {
+    padding: 22px;
+  }
+  .title-subtitle {
+    padding-left: 90px;
+  }
+  .title-premise,
+  .main-menu {
+    margin-left: 90px;
+  }
+  .title-game-info {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 950px) {
+  .game-hud {
+    padding-left: 18px;
+    padding-right: 18px;
+    gap: 14px;
+  }
+  .game-brand > span {
+    font-size: calc(var(--type-36) * var(--ui-scale, 1));
+  }
+  .game-brand {
+    gap: 9px;
+  }
+  .game-brand > svg {
+    width: 35px;
+    height: 35px;
+  }
+  .hud-values > div {
+    padding: 0 15px;
+    min-width: 95px;
+  }
+  .hud-values dt {
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  }
+  .hud-values dd {
+    font-size: calc(var(--type-28) * var(--ui-scale, 1));
+  }
+  .game-stage {
+    grid-template-columns: 62px minmax(0, 1fr) 290px;
+  }
+  .game-rail > button {
+    min-height: 70px;
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  }
+  .game-rail kbd {
+    display: none;
+  }
+  .save-indicator {
+    display: none;
+  }
+  .map-heading {
+    left: 18px;
+    right: 15px;
+    top: 18px;
+  }
+  .map-heading p {
+    max-width: 35ch;
+  }
+  .map-tools {
+    left: 18px;
+    bottom: 18px;
+  }
+  .map-legend {
+    gap: 10px;
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+  }
+  .map-zoom {
+    right: 15px;
+    bottom: 75px;
+  }
+  .map-tooltip {
+    left: 18px;
+    bottom: 130px;
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  }
+  .map-layers button {
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+    padding: 6px 9px;
+  }
+  .title-menu {
+    padding-top: 9vh;
+  }
+  .title-premise {
+    font-size: calc(var(--type-19) * var(--ui-scale, 1));
+  }
+  .title-header {
+    font-size: calc(var(--type-13) * var(--ui-scale, 1));
+  }
+  .title-footer {
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+  }
+  .title-footer > span:last-child {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .game-root {
+    height: 100dvh;
+    min-height: 0;
+  }
+  .game-shell {
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+  }
+  .game-hud {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px max(14px, env(safe-area-inset-right)) 0
+      max(14px, env(safe-area-inset-left));
+  }
+  .game-brand {
+    height: 40px;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .game-brand > svg {
+    width: 29px;
+    height: 29px;
+  }
+  .game-brand > span {
+    font-size: calc(var(--type-32) * var(--ui-scale, 1));
+    letter-spacing: 1px;
+  }
+  .game-brand > small {
+    display: block;
+    font-size: calc(var(--type-9) * var(--ui-scale, 1));
+    margin-left: 8px;
+    letter-spacing: 1px;
+  }
+  .hud-values {
+    justify-content: space-between;
+    padding: var(--space-8) 0 11px;
+    width: 100%;
+  }
+  .hud-values > div {
+    padding: 0 var(--space-12);
+    min-width: 0;
+    flex: 1;
+    border-left: 1px solid var(--map-team-fill);
+  }
+  .hud-values > div:first-child {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .hud-values dt {
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+    white-space: nowrap;
+    margin-bottom: 4px;
+  }
+  .hud-values dd {
+    font-size: calc(var(--type-23) * var(--ui-scale, 1));
+  }
+  .hud-values dd small {
+    font-size: calc(var(--type-16) * var(--ui-scale, 1));
+  }
+  .game-stage {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 50px minmax(190px, 40%) minmax(0, 1fr);
+  }
+  .game-rail {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--border-default);
+  }
+  .game-rail > button {
+    flex: 1;
+    min-height: 49px;
+    min-width: 52px;
+    flex-direction: row;
+    gap: 5px;
+    padding: var(--space-8) 6px;
+    border-left: 0;
+    border-bottom: 2px solid transparent;
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  }
+  .game-rail > button > svg {
+    width: 17px;
+    height: 17px;
+  }
+  .game-rail > button.selected {
+    border-left: 0;
+    border-bottom-color: var(--brass);
+  }
+  .game-rail > button:nth-last-child(-n + 3) {
+    min-width: 42px;
+    flex: 0 0 42px;
+  }
+  .game-rail > button:nth-last-child(-n + 3) > span {
+    display: none;
+  }
+  .rail-spacer {
+    display: none;
+  }
+  .game-map-area {
+    min-height: 0;
+    grid-row: 2;
+  }
+  .game-dossier {
+    grid-row: 3;
+    border-left: 0;
+    border-top: 1px solid var(--border-default);
+  }
+  .region-content,
+  .research-content,
+  .countries-content,
+  .journal-content,
+  .guide-content,
+  .settings-content {
+    padding: var(--space-20);
+    min-height: auto;
+  }
+  .region-heading h2 {
+    font-size: calc(var(--type-30) * var(--ui-scale, 1));
+  }
+  .region-population {
+    padding: var(--space-12) 0 var(--space-16);
+  }
+  .region-stats {
+    margin-bottom: 21px;
+  }
+  .region-stats > div {
+    padding: 7px 0;
+  }
+  .region-stats dd {
+    font-size: calc(var(--type-20) * var(--ui-scale, 1));
+  }
+  .mission-setup h3,
+  .local-response h3 {
+    font-size: calc(var(--type-26) * var(--ui-scale, 1));
+  }
+  .vaccine-status {
+    margin-top: 25px;
+  }
+  .map-heading {
+    left: 14px;
+    right: 14px;
+    top: 11px;
+  }
+  .map-heading h1 {
+    font-size: calc(var(--type-22) * var(--ui-scale, 1));
+  }
+  .map-heading p {
+    display: none;
+  }
+  .map-tools {
+    left: 14px;
+    bottom: 10px;
+    gap: var(--space-8);
+  }
+  .map-layers button {
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+    min-height: 28px;
+    padding: var(--space-4) var(--space-8);
+  }
+  .map-legend {
+    font-size: calc(var(--type-10) * var(--ui-scale, 1));
+    gap: 10px;
+  }
+  .map-legend i {
+    width: 7px;
+    height: 7px;
+  }
+  .map-zoom {
+    bottom: 10px;
+    right: 12px;
+    gap: var(--space-4);
+  }
+  .map-zoom button {
+    width: 30px;
+    height: 30px;
+  }
+  .map-zoom button > svg {
+    width: 15px;
+    height: 15px;
+  }
+  .map-tooltip {
+    display: none;
+  }
+  .game-timebar {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    gap: 9px;
+    padding: 9px max(14px, env(safe-area-inset-right))
+      max(9px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+  }
+  .time-day {
+    min-width: 0;
+  }
+  .time-day > strong {
+    font-size: calc(var(--type-23) * var(--ui-scale, 1));
+  }
+  .time-day small {
+    font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  }
+  .time-day > span {
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+    margin-top: 4px;
+  }
+  .time-controls {
+    justify-content: flex-end;
+    gap: 10px;
+    padding-left: 10px;
+  }
+  .time-play {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  .time-play > svg {
+    width: 20px;
+  }
+  .speed-controls {
+    gap: 5px;
+  }
+  .speed-controls button {
+    min-width: 35px;
+    min-height: 40px;
+    font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  }
+  .latest-event {
+    display: none;
+  }
+  .title-screen {
+    padding: 0 max(22px, env(safe-area-inset-left));
+  }
+  .title-header {
+    height: 64px;
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+    gap: 10px;
+  }
+  .title-header > span {
+    max-width: 22ch;
+    line-height: 1.5;
+  }
+  .title-menu {
+    padding: 10vh 0 8vh;
+    max-width: 100%;
+  }
+  .game-brand.large {
+    gap: 14px;
+    height: auto;
+  }
+  .game-brand.large > svg {
+    width: 49px;
+    height: 49px;
+  }
+  .game-brand.large > span {
+    font-size: calc(var(--type-88) * var(--ui-scale, 1));
+    letter-spacing: 2px;
+  }
+  .title-subtitle {
+    font-size: calc(var(--type-17) * var(--ui-scale, 1));
+    letter-spacing: 5px;
+    padding-left: 65px;
+    margin-top: 12px;
+  }
+  .title-premise {
+    font-size: calc(var(--type-18) * var(--ui-scale, 1));
+    margin: 35px 0 25px 65px;
+  }
+  .main-menu {
+    margin-left: 65px;
+    max-width: 300px;
+  }
+  .main-menu > a,
+  .main-menu > button {
+    font-size: calc(var(--type-18) * var(--ui-scale, 1));
+    min-height: 53px;
+    padding: 13px 10px;
+    gap: var(--space-12);
+  }
+  .main-menu > a.main-menu-play {
+    padding: 15px var(--space-12);
+    column-gap: var(--space-12);
+  }
+  .title-game-info {
+    margin: var(--space-20) 0 0 65px;
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+  }
+  .title-atlas {
+    transform: translateX(30%) scale(1.7);
+    opacity: 0.55;
+  }
+  .title-screen:before {
+    background: linear-gradient(
+      90deg,
+      var(--overlay-7),
+      var(--overlay-8) 70%,
+      var(--overlay-9)
+    );
+  }
+  .title-footer {
+    gap: 15px;
+    min-height: 62px;
+    font-size: calc(var(--type-10) * var(--ui-scale, 1));
+    line-height: 1.5;
+  }
+  .title-footer > p {
+    max-width: 32ch;
+    text-align: right;
+  }
+  .auth-page {
+    padding: var(--space-16) 22px 35px;
+  }
+  .auth-card {
+    margin-top: 20px;
+    padding-top: 26px;
+  }
+  .auth-card h1 {
+    font-size: calc(var(--type-34) * var(--ui-scale, 1));
+  }
+  .end-card {
+    padding: 30px 22px;
+  }
+  .end-card h2 {
+    font-size: calc(var(--type-34) * var(--ui-scale, 1));
+  }
+  .end-card > p {
+    font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  }
+  .mission-dialog {
+    padding: 18px;
+  }
+}
+@media (max-width: 370px) {
+  .game-brand.large > span {
+    font-size: calc(var(--type-76) * var(--ui-scale, 1));
+  }
+  .game-brand.large > svg {
+    width: 42px;
+    height: 42px;
+  }
+  .title-subtitle {
+    padding-left: 56px;
+  }
+  .main-menu,
+  .title-premise {
+    margin-left: 0;
+  }
+  .title-game-info {
+    margin-left: 10px;
+  }
+  .title-menu {
+    padding-top: 8vh;
+  }
+  .game-rail > button {
+    min-width: 43px;
+    font-size: calc(var(--type-11) * var(--ui-scale, 1));
+  }
+  .game-rail > button > svg {
+    display: none;
+  }
+  .game-rail > button:nth-last-child(-n + 3) {
+    min-width: 34px;
+    flex-basis: 34px;
+  }
+  .game-rail > button:nth-last-child(-n + 3) > svg {
+    display: block;
+  }
+  .game-timebar {
+    grid-template-columns: 95px 1fr;
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .time-controls {
+    gap: 6px;
+    padding-left: 7px;
+  }
+  .speed-controls button {
+    min-width: 31px;
+  }
+  .map-legend {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+@media (forced-colors: active) {
+  .game-rail > button.selected,
+  .difficulty-choice input:checked + span,
+  .speed-controls button[aria-pressed="true"] {
+    outline: 2px solid Highlight;
+  }
+  .primary,
+  .main-menu-play {
+    border: 2px solid ButtonText;
+  }
+}
+.mobile-launch {
+  display: none;
+}
+.game-dossier:focus {
+  outline: none;
+}
+.auth-card > .game-brand {
+  margin-bottom: 30px;
+}
+.auth-card > .game-brand > span {
+  font-size: calc(var(--type-38) * var(--ui-scale, 1));
+}
+.auth-card > .game-brand > svg {
+  width: 35px;
+  height: 35px;
+}
+.auth-card > .game-brand > small {
+  font-size: calc(var(--type-10) * var(--ui-scale, 1));
+}
+@media (max-width: 700px) {
+  .mobile-launch {
+    display: inline-flex;
+    justify-self: end;
+    min-height: 44px;
+    font-size: calc(var(--type-14) * var(--ui-scale, 1));
+  }
+  .time-controls.preparing {
+    display: none;
+  }
+  .region-ready .region-stats {
+    display: none;
+  }
+  .region-ready .launch-mission {
+    display: none;
+  }
+  .region-ready .mission-setup > p {
+    font-size: calc(var(--type-14) * var(--ui-scale, 1));
+    line-height: 1.6;
+    margin: 13px 0;
+  }
+  .region-ready .vaccine-status {
+    margin-top: 25px;
+  }
+}
+.protocol-tree > li:not(.protocol-branch):before {
+  display: none;
+}
+@media (max-width: 700px) {
+  .map-zoom button {
+    width: 40px;
+    height: 40px;
+  }
+  .map-zoom button > svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (min-width: 701px) and (max-height: 850px) {
+  .game-rail > button {
+    min-height: 59px;
+    padding: 7px 3px;
+    gap: 5px;
+  }
+  .game-rail > button > kbd {
+    display: none;
+  }
+  .game-rail {
+    padding: var(--space-8) 0;
+  }
+  .rail-spacer {
+    min-height: 7px;
+  }
+  .region-heading h2 {
+    font-size: calc(var(--type-32) * var(--ui-scale, 1));
+  }
+  .region-population {
+    padding: var(--space-12) 0 var(--space-16);
+  }
+  .region-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-8);
+    padding: 13px 0;
+    margin-bottom: 20px;
+  }
+  .region-stats > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    padding: 0;
+    border: 0;
+  }
+  .region-stats dt {
+    font-size: calc(var(--type-13) * var(--ui-scale, 1));
+  }
+  .region-stats dd {
+    font-size: calc(var(--type-21) * var(--ui-scale, 1));
+  }
+  .local-response h3 {
+    font-size: calc(var(--type-26) * var(--ui-scale, 1));
+    margin-bottom: 8px;
+  }
+  .local-order {
+    padding: var(--space-12) 0;
+  }
+  .local-order > p {
+    font-size: calc(var(--type-14) * var(--ui-scale, 1));
+    line-height: 1.5;
+    margin: 7px 0 9px;
+  }
+  .regional-note {
+    margin: 13px 0;
+    font-size: calc(var(--type-12) * var(--ui-scale, 1));
+  }
+  .local-response {
+    margin-bottom: 10px;
+  }
+  .title-menu {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  .title-premise {
+    font-size: calc(var(--type-18) * var(--ui-scale, 1));
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+  .game-brand.large > span {
+    font-size: calc(var(--type-110) * var(--ui-scale, 1));
+  }
+  .main-menu > a,
+  .main-menu > button {
+    min-height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .title-game-info {
+    margin-top: 18px;
+  }
+}
+@media (min-width: 701px) and (max-height: 850px) {
+  .title-menu {
+    padding-bottom: 24px;
+  }
+}

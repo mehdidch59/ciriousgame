@@ -1,10 +1,6 @@
 export const WORLD_MAP_DATA = {
     // Simplified SVG Paths and Neighbors (Adjacency)
-    "FR": {
-        path: "M400,150 L420,150 L420,170 L400,170 Z", // Placeholder Box
-        neighbors: ["US", "RU", "ZA"], // Flight paths? Or generic neighbors
-        viewBox: "0 0 800 400"
-    },
+
     // Adding rough paths for visual representation. 
     // In a real app we'd use a proper GeoJSON or detailed SVG.
     // Making stylized "Hex/Tech" look for Savior Mode.

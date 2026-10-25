@@ -1,0 +1,69 @@
+{
+  "assets": [
+    {
+      "path": "public/world.geojson",
+      "role": "source géographique",
+      "source": "Natural Earth, Admin 0, 1:110m",
+      "license": "Public domain"
+    },
+    {
+      "path": "public/world-map.json",
+      "role": "tracés SVG et centres géographiques",
+      "source": "npm run prepare-map",
+      "license": "Public domain"
+    },
+    {
+      "path": "public/fonts/Barlow-Regular.woff2",
+      "role": "texte et commandes",
+      "source": "Google Fonts / Barlow",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "public/fonts/OFL-Barlow.txt"
+    },
+    {
+      "path": "public/fonts/Barlow-SemiBold.woff2",
+      "role": "valeurs importantes",
+      "source": "Google Fonts / Barlow",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "public/fonts/OFL-Barlow.txt"
+    },
+    {
+      "path": "public/fonts/BarlowCondensed-SemiBold.woff2",
+      "role": "titre et HUD",
+      "source": "Google Fonts / Barlow Condensed",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "public/fonts/OFL-BarlowCondensed.txt"
+    },
+    {
+      "path": "src/components/game/GameBrand.jsx",
+      "role": "emblème géométrique original",
+      "source": "SVG créé dans le projet",
+      "format": "code-native vector"
+    },
+    {
+      "path": "docs/design/game-ui-target.png",
+      "role": "cible de design seulement, non utilisée dans le produit",
+      "source": "image_gen built-in, ui-mockup",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "status": "direction choisie dans le cadre de la refonte déléguée"
+    },
+    {
+      "path": "docs/design/atlas-v2-target.png",
+      "role": "cible de raffinement seulement, non utilisée dans le produit",
+      "source": "image_gen built-in",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "status": "hiérarchie retenue, illustration et données fictives exclues"
+    },
+    {
+      "path": "src/components/game/TitleGlobe.jsx",
+      "role": "globe 3D interactif du menu, dessiné en code",
+      "source": "géographie Natural Earth existante ; Three.js et React Three Fiber",
+      "license": "géographie public domain ; bibliothèques MIT"
+    }
+  ]
+}

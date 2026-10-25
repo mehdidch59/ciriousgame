@@ -1,0 +1,65 @@
+/* Native dialogs own focus and the topmost input layer. */
+.mission-dialog {
+  max-width: 100%;
+  max-height: 100%;
+  padding: var(--space-24);
+  border: 0;
+  background: transparent;
+  color: var(--paper);
+  overscroll-behavior: contain;
+}
+.mission-dialog::backdrop {
+  background: var(--overlay-5);
+}
+.end-card {
+  position: relative;
+  background: var(--surface-inset);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 20px 80px var(--overlay-6);
+  padding: 38px;
+  width: min(450px, 100%);
+  min-width: min(340px, 80vw);
+  text-align: center;
+}
+.end-card h2 {
+  font-size: calc(var(--type-38) * var(--ui-scale, 1));
+  line-height: 1.1;
+  margin: 15px 0 22px;
+}
+.end-card > p {
+  font-size: calc(var(--type-16) * var(--ui-scale, 1));
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: var(--space-16) 0 22px;
+}
+.end-card > .button {
+  display: flex;
+  width: 100%;
+  margin-top: 12px;
+}
+.menu-emblem {
+  color: var(--brass);
+  display: flex;
+  justify-content: center;
+}
+.dialog-close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.result-stats {
+  border-top: 1px solid var(--map-team-fill);
+  border-bottom: 1px solid var(--map-team-fill);
+  padding: var(--space-12) 0;
+  margin: var(--space-24) 0;
+}
+.result-stats > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(var(--type-15) * var(--ui-scale, 1));
+  padding: 7px 0;
+}
+.result-stats dd {
+  font-weight: 600;
+}
